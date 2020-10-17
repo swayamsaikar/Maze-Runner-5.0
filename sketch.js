@@ -546,7 +546,7 @@ function OB4() {
   obstacle4.lifetime = 400;
   invisibleGround.depth = obstacle4.depth;
   invisibleGround.depth = invisibleGround.depth + 1;
-
+  obstacle4.debug = true;
   OBGroup4.add(obstacle4);
 }
 
